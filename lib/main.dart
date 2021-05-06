@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:ejemplo1/src/pages/circular_progress_page.dart';
+import 'package:ejemplo1/src/pages/graficas_circulares_page.dart';
+// import 'package:ejemplo1/src/labs/circular_progress_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Diseños App',
       debugShowCheckedModeBanner: false,
-      home: CircularProgressPage()
+      // home: CircularProgressPage(),
+      home: GraficasCircularesPage(),
     );
   }
 }
